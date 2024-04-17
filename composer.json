@@ -1,8 +1,8 @@
 {
     "name": "strivexnl/strivex-commons",
     "description": "Some custom easy to use functions",
-    "version": "1.0.0",
-    "type": "composer-plugin",
+    "version": "1.0.1",
+    "type": "library",
     "license": "LGPL-3.0-or-later",
     "keywords": [
         "string",
