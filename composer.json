@@ -1,8 +1,9 @@
 {
     "name": "strivexnl/strivex-commons",
     "description": "Some custom easy to use functions",
-    "version": "0.1.3",
+    "version": "1.0.0",
     "type": "composer-plugin",
+    "license": "LGPL-3.0-or-later",
     "keywords": [
         "string",
         "custom"
@@ -13,7 +14,9 @@
             "email": "sven.franke@strivex.nl"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">= 7.4"
+    },
     "autoload": {
         "psr-4": {
             "Strivex\\Commons\\": "src/"
