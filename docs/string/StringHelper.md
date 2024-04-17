@@ -19,14 +19,14 @@
    ```
 ## Available Custom Methods
 
-| Method                          | Input             | Result                  |
-|---------------------------------|-------------------|-------------------------| 
-| [toLowerCase](#to-lower-case)   | This is some text | ```this is some text``` |
-| [toUpperCase](#to-upper-case)   | This is some text | ```THIS IS SOME TEXT``` |
-| [toPascalCase](#to-pascal-case) | This is some text | ```ThisIsSomeText```    |
-| [toCamelCase](#to-camel-case)   | This is some text | ```thisIsSomeText```    |
-| [toSnakeCase](#to-snake-case)   | This is some text | ```this_is_some_text``` |
-| [toKebabCase](#to-kebab-case)   | This is some text | ```this-is-some-text``` |
+| Method                        | Input             | Result                  |
+|-------------------------------|-------------------|-------------------------| 
+| [toLowerCase](#tolowercase)   | This is some text | ```this is some text``` |
+| [toUpperCase](#touppercase)   | This is some text | ```THIS IS SOME TEXT``` |
+| [toPascalCase](#topascalcase) | This is some text | ```ThisIsSomeText```    |
+| [toCamelCase](#tocamelcase)   | This is some text | ```thisIsSomeText```    |
+| [toSnakeCase](#tosnakecase)   | This is some text | ```this_is_some_text``` |
+| [toKebabCase](#tokebabcase)   | This is some text | ```this-is-some-text``` |
 
 ### toLowerCase
 The toLowerCase function will simply convert the input to a ```lowercase``` string.
