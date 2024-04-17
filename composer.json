@@ -1,7 +1,7 @@
 {
-    "name": "strivexnl/strivex-string",
-    "description": "Some custom string functions",
-    "version": "0.1.1",
+    "name": "strivexnl/strivex-commons",
+    "description": "Some custom easy to use functions",
+    "version": "0.1.3",
     "type": "composer-plugin",
     "keywords": [
         "string",
