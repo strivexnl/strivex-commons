@@ -1,0 +1,22 @@
+{
+    "name": "strivexnl/strivex-string",
+    "description": "Some custom string functions",
+    "version": "0.1.0",
+    "type": "composer-plugin",
+    "keywords": [
+        "string",
+        "custom"
+    ],
+    "authors": [
+        {
+            "name": "S.E. Franke",
+            "email": "sven.franke@strivex.nl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Strivex\\Commons\\": "src/"
+        }
+    }
+}
