@@ -57,11 +57,11 @@ Example:
 ### toPascalCase
 The toPascalCase function will convert the input to a ```PascalCased``` string.
 
-| Parameter    | Type    | Description                    | Default | Required |
-|--------------|---------|--------------------------------|:--------|:--------:|
-| string       | String  | The text to use                | n/a     |   yes    |
-| leaveSlashes | Boolean | Leave slashes untouched        | false   |    no    |
-| delimiter    | String  | Delimiter used in leaveSlashes | "/"     |    no    |
+| Parameter    | Type    | Description                      | Default | Required |
+|--------------|---------|----------------------------------|:--------|:--------:|
+| string       | String  | The text to use                  | n/a     |   yes    |
+| leaveSlashes | Boolean | Leave slashes untouched          | false   |    no    |
+| delimiter    | String  | Delimiter used in _leaveSlashes_ | "/"     |    no    |
 __When using leaveSlashes the ```PascalCase``` will be used on all parts individually!_
 
 Example:
@@ -76,11 +76,11 @@ Example:
 ### toCamelCase
 The toCamelCase function will convert the input to a ```camelCased``` string.
 
-| Parameter    | Type    | Description                    | Default | Required |
-|--------------|---------|--------------------------------|:--------|:--------:|
-| string       | String  | The text to use                | n/a     |   yes    |
-| leaveSlashes | Boolean | Leave slashes untouched        | false   |    no    |
-| delimiter    | String  | Delimiter used in leaveSlashes | "/"     |    no    |
+| Parameter    | Type    | Description                      | Default | Required |
+|--------------|---------|----------------------------------|:--------|:--------:|
+| string       | String  | The text to use                  | n/a     |   yes    |
+| leaveSlashes | Boolean | Leave slashes untouched          | false   |    no    |
+| delimiter    | String  | Delimiter used in _leaveSlashes_ | "/"     |    no    |
 _When using leaveSlashes the ```camelCase``` will be used on all parts individually!_
 
 Example:
@@ -95,11 +95,11 @@ Example:
 ### toSnakeCase
 The toSnakeCase function will convert the input to a ```snake_cased``` string.
 
-| Parameter    | Type    | Description                    | Default | Required |
-|--------------|---------|--------------------------------|:--------|:--------:|
-| string       | String  | The text to use                | n/a     |   yes    |
-| leaveSlashes | Boolean | Leave slashes untouched        | false   |    no    |
-| delimiter    | String  | Delimiter used in leaveSlashes | "/"     |    no    |
+| Parameter    | Type    | Description                      | Default | Required |
+|--------------|---------|----------------------------------|:--------|:--------:|
+| string       | String  | The text to use                  | n/a     |   yes    |
+| leaveSlashes | Boolean | Leave slashes untouched          | false   |    no    |
+| delimiter    | String  | Delimiter used in _leaveSlashes_ | "/"     |    no    |
 __When using leaveSlashes the ```snake_case``` will be used on all parts individually!_
 
 Example:
@@ -114,11 +114,11 @@ $scsh->toSnakeCase('We/have/something/like-this', true, "/");
 ### toKebabCase
 The toKebabCase function will convert the input to a ```kebab-cased``` string.
 
-| Parameter    | Type    | Description                    | Default | Required |
-|--------------|---------|--------------------------------|:--------|:--------:|
-| string       | String  | The text to use                | n/a     |   yes    |
-| leaveSlashes | Boolean | Leave slashes untouched        | false   |    no    |
-| delimiter    | String  | Delimiter used in leaveSlashes | "/"     |    no    |
+| Parameter    | Type    | Description                      | Default | Required |
+|--------------|---------|----------------------------------|:--------|:--------:|
+| string       | String  | The text to use                  | n/a     |   yes    |
+| leaveSlashes | Boolean | Leave slashes untouched          | false   |    no    |
+| delimiter    | String  | Delimiter used in _leaveSlashes_ | "/"     |    no    |
 __When using leaveSlashes the ```kebab-case``` will be used on all parts individually!_
 
 Example:
