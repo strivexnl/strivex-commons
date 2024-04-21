@@ -27,7 +27,7 @@ class JsonEditor {
     ////////////////////
     /// PUBLIC METHODS
     ////////////////////
-    public function add($key, $value, $overwrite = false) {
+    public function add($key, $value, $overwrite = true) {
         if ($overwrite) {
             $this->dot->set($key, $value);
         } else {
